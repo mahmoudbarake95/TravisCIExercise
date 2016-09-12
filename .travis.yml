@@ -1,7 +1,4 @@
-language : java
-jdk : oraclejdk7
+language: java
+jdk: oraclejdk7
 
-script : ant test
-
-notifications:
-  email: false 
+script: ant test
