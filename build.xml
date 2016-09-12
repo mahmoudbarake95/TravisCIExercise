@@ -6,6 +6,7 @@
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="TravisExercise">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../../../Desktop/Software/Eclipse/kepler/eclipse"/>
+    <property name="junit.output.dir" value="junit"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.7"/>
     <property name="source" value="1.7"/>
@@ -54,5 +55,21 @@
     <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
+    </target>
+    <target name="TestFlatRateDiscountStrategy">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="strategydemo.TestFlatRateDiscountStrategy" todir="${junit.output.dir}"/>
+            <classpath refid="TravisExercise.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
     </target>
 </project>
