@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Mahmouds-MacBook-Pro.local" name="strategydemo.TestFlatRateDiscountStrategy" tests="1" time="0.092" timestamp="2016-09-12T17:03:50">
+<testsuite errors="0" failures="0" hostname="Mahmouds-MacBook-Pro.local" name="strategydemo.TestFlatRateDiscountStrategy" tests="1" time="0.079" timestamp="2016-09-12T20:50:28">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -14,7 +14,6 @@
     <property name="ant.home" value="/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030" />
     <property name="java.runtime.version" value="1.7.0_80-b15" />
     <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.8PdjhHDfPO/Render" />
-    <property name="env.JAVA_MAIN_CLASS_17449" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="user.name" value="Mahmoud" />
     <property name="env.USER" value="Mahmoud" />
     <property name="env.SHELL" value="/bin/bash" />
@@ -53,6 +52,7 @@
     <property name="env.JAVA_STARTED_ON_FIRST_THREAD_16278" value="1" />
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1" />
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_17705" value="1" />
     <property name="eclipse.pdebuild.scripts" value="/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts//" />
     <property name="user.home" value="/Users/Mahmoud" />
     <property name="target" value="1.7" />
@@ -63,15 +63,16 @@
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner strategydemo.TestFlatRateDiscountStrategy filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junit/TEST-strategydemo.TestFlatRateDiscountStrategy.xml crashfile=/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junitvmwatcher7852469704058103087.properties propsfile=/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junit9143869032380754575.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner strategydemo.TestFlatRateDiscountStrategy filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junit/TEST-strategydemo.TestFlatRateDiscountStrategy.xml crashfile=/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junitvmwatcher3015607158692359640.properties propsfile=/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/junit608830133183480755.properties" />
     <property name="java.class.path" value="/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/bin:/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/lib/junit.jar:/Users/Mahmoud/Documents/workspace/ECSE 429/TravisExercise/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-launcher.jar:/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar:/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit.jar:/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.7" />
     <property name="sun.cpu.endian" value="little" />
     <property name="sun.os.patch.level" value="unknown" />
-    <property name="debuglevel" value="source,lines,vars" />
     <property name="env.HOME" value="/Users/Mahmoud" />
+    <property name="env.JAVA_MAIN_CLASS_17705" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="debuglevel" value="source,lines,vars" />
     <property name="env.ANT_HOME" value="/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.apache.ant_1.8.4.v201303080030" />
     <property name="eclipse.pdebuild.home" value="/Users/Mahmoud/Desktop/Software/Eclipse/kepler/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/.//" />
     <property name="java.io.tmpdir" value="/var/folders/7m/z2ynz7rs1055w1c80kxj48v80000gn/T/" />
@@ -92,9 +93,8 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.7" />
     <property name="ant.project.invoked-targets" value="TestFlatRateDiscountStrategy" />
-    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_17449" value="1" />
   </properties>
-  <testcase classname="strategydemo.TestFlatRateDiscountStrategy" name="test" time="0.001" />
+  <testcase classname="strategydemo.TestFlatRateDiscountStrategy" name="test" time="0.002" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
